@@ -1,0 +1,22 @@
+.heading {
+  text-align: left;
+  position: absolute;
+  top: 250px;
+}
+
+.button {
+  margin: 8px 20px 8px 70px;
+  padding: 10px 20px;
+  color: white;
+  background-color: blue;
+  border-radius: 4px;
+}
+
+.h1 {
+  margin-left: 70px;
+}
+
+.p {
+  max-width: 450px;
+  margin-left: 70px;
+}

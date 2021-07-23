@@ -1,0 +1,21 @@
+.searchField {
+  height: 30px;
+  width: 300px;
+}
+
+.searchBox {
+  color: green;
+  border-radius: 4px;
+  margin: 3px;
+  border: 1px solid green;
+  /* height: 36px; */
+  max-height: 36px;
+  padding: 8px 6px 8px 6px;
+}
+
+.searchBox:hover, .searchBox:focus {
+  border: 1px solid darkgreen;
+  color: darkgreen;
+  background-color: white;
+  cursor: pointer;
+}
