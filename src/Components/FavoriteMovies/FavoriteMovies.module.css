@@ -1,0 +1,11 @@
+.favorites {
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.poster{
+  margin: 4px;
+  flex: 0 1 calc(20% - 8px);
+}
