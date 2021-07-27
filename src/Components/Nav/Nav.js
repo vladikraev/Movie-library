@@ -1,19 +1,19 @@
-import React from 'react'
-import SearchBar from '../Search/Search'
+import Search from '../Search/Search'
+import { useHistory } from "react-router-dom";
 import style from './Nav.module.css'
-import { useHistory } from 'react-router-dom'
 
-function Nav() {
+const Nav = (props) => {
+
   const history = useHistory();
-  
-  const handleRoute = () => {
+
+  const handleClick = () => {
     history.push("/");
   }
-
+  
   return (
     <div className={style.navigation}>
-      <h2 className={style.h2} onClick={handleRoute}>My Movie Collection</h2>
-      <SearchBar />
+      <h2 className={style.h2} onClick={handleClick}>My Movie Collection</h2>
+      <Search onSubmit={props.onSubmit} onChange={props.onChange}/>
     </div>
   )
 }

@@ -10,6 +10,7 @@
   color: white;
   background-color: blue;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .h1 {

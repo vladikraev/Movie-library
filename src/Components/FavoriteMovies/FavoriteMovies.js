@@ -27,6 +27,7 @@ const FavoriteMovies = () => {
   } else {
     <div>Loading...</div>
   }
+  console.log(movies);
 
   return (
     <div className={style.favorites}>
